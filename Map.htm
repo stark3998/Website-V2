@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="Images\webc1.css">
+	<style>
+		img2 {
+			width:100%;
+			height:100vh;
+		}
+	</style>
+</head>
+
+
+<body onload="getLocation(); getNav(0)">
+
+	<ul id="lol"></ul>
+
+	<div id="mapholder"></div>
+	<div id="googleMap" style="text-align:center;"></div>
+
+	<script>window.alert('MAP API Not Authorized Yet ...')</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
